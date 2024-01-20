@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    
+
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav{
+    background-color: #f4433f;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 12px 24px;
+    display: block;
+    font-size: 18px;
+    color: white;
+}
+.navbar li a.aktive{
+   color: black;
+   background-color: white;
+} */
+
+.flex-container {
+    background-color: pink;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 100px;
+    /* height: 100px; */
+}
+
+.first {
+    background-color: greenyellow;
+    align-self: flex-start;
+}
+
+.second {
+    background-color: orange;
+    align-self: center;
+}
+
+.third {
+    background-color: red;
+    align-self: flex-end;
+}
+    </style>
+</head>
+<body>
+        <!-- <nav>
+            <ui1 class="navbar">
+                <li><a href="" class="aktive">link1</a></li>
+                <li><a href="">link2</a></li>
+                <li><a href="">link3</a></li>
+                <li><a href="">link4</a></li>
+                <li><a href="">link5</a></li>
+            </ui1>
+        </nav> -->
+        <!-- .flex-container>.flex-item{$}*3 -->
+        <div class="flex-container">
+            <div class="flex-item first">1</div>
+            <div class="flex-item second">2</div>
+            <div class="flex-item third">3</div>
+            <div class="flex-item first">4</div>
+            <div class="flex-item second">5</div>
+            <div class="flex-item third">6</div>
+        </div>
+</body>
+</html>

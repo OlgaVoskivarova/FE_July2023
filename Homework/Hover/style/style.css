@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.link1{
+    color: brown;
+    font-size: 24px;
+
+}
+.link2{
+    color: green;
+    font-size: 24px;
+}
+.link3{
+    color: yellow;
+    font-size: 24px;
+}
+.link1:hover{
+    color: blue;
+}
+.link3:hover{
+    background-color: bisque;
+}

@@ -1,0 +1,16 @@
+p{
+    color: blue;
+}
+.ul1{
+    list-style: none inside url(https://css-plus.com/static/807132d43a089b5374c0b1a24160eb98/a2c25/featured.png);}
+    p{border-top: 5px solid red;
+        border-right: 5px solid yellow;
+        border-left: 5px solid orange;
+        border-bottom: 5px solid blue;}
+        .p1{
+            font-size: 25px;
+        border: 5px solid black;
+    margin: 30px 50px 80px 120px;
+padding: 50px 20px 40px 80px;
+border-radius: 20px 40px 60px 80px;
+background-color: rgb(177, 226, 43);}

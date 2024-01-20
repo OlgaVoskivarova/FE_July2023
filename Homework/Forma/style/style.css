@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-color: lightblue;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+
+}
+.main{
+    padding:30px;
+    margin: 15px;
+    border: 1px solid rgb(16, 184, 196);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px rgb(16, 184, 196); 
+    color: grey;
+}
+h1{
+    font-size: 50px;
+
+}
+
+.name_inpunt input{
+    height: 30px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: grey;
+
+}
+input{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* label{
+    color: gray;
+} */
+.quest3{
+    margin-bottom: 20px;
+    /* width: 600px; */
+
+    /* Анна, здравствуйте! 
+Подскажите пожалуйста как можно изменить размеры, ширина и длина, полей ввода. 
+Я использовала внутри самого тега свойств size, но оно сработало не доя всех строк ввода. Меняла ширину и высоту через свойства, тоже без результата.
+Спасибо  */
+}
+
+textarea{
+    margin-top: 20px;
+}
+select{
+    margin-top: 20px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(13, 85, 167);
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    left: 45%;
+    margin-top: 30px;
+}

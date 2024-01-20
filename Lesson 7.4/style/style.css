@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lights{
+    width: 200px;
+    height: 600px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+.block1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 25px;
+    background-color: red;
+
+}
+.block2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 25px;
+    background-color: yellow;
+}
+  .block3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    left: 25px;
+    background-color: green;
+  }  
